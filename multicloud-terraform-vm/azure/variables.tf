@@ -1,6 +1,6 @@
 variable "location" {
   description = "Azure region"
-  default     = "eastus"
+  default     = "centralus"
 }
 
 variable "admin_username" {
@@ -11,4 +11,9 @@ variable "admin_username" {
 variable "ssh_public_key_path" {
   description = "Path to your public SSH key"
   default     = "~/.ssh/id_rsa.pub"
+}
+
+variable "subscription_id" {
+  description = "Azure subscription ID"
+  type        = string
 }
