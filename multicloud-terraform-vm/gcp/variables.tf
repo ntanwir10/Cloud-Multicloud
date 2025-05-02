@@ -10,7 +10,7 @@ variable "region" {
 
 variable "zone" {
   description = "GCP zone"
-  default     = "us-west1-b"
+  default     = "us-west1-a"
 }
 
 variable "ssh_user" {
